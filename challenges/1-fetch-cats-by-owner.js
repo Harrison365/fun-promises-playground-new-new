@@ -11,4 +11,6 @@ const fetchCatsByOwner = async (owner) => {
   return owners;
 };
 
+fetchCatsByOwner("vel").then((a) => console.log(a));
+
 module.exports = fetchCatsByOwner;
